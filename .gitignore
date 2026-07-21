@@ -1,0 +1,35 @@
+# Gradle
+.gradle/
+build/
+run/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+hs_err_pid*
+replay_pid*
+
+# Temp
+*.tmp
+*.bak
+tmp/
+
+# Download test assets
+_downloads/
+
+# Run directories (generated at runtime)
+*/run/
+*/run-data/
