@@ -34,7 +34,7 @@ yourstageskybox/
 
 | 设置 | 默认值 | 说明 |
 |---|---|---|
-| `autoRegister` | `false` | `true` = 客户端启动时自动扫描资源包注册天空盒；`false` = 仅通过指令注册 |
+| `autoRegister` | `true` | `true` = 客户端启动时自动扫描资源包注册天空盒；`false` = 仅通过指令注册 |
 
 自动注册会扫描所有已加载资源包的 `assets/yourstageskybox/textures/skyboxes/` 目录（支持文件夹和 zip 格式），对每个含 `panorama_0.png` 的子目录自动调用 `registerSkybox()`。
 
@@ -54,7 +54,7 @@ yourstageskybox/                  — root package (not a domain; modid = "yours
 │   ├── SkyboxRenderer.java    — IRenderHandler: dual-cubemap crossfade with alpha blending
 │   └── SkyboxWorldData.java   — WorldSavedData: persists player SkyboxState assignments
 ├── command/
-│   └── CommandYourStageSkybox.java — /yourstageskybox (alias /csb), OP level 2
+│   └── CommandYourStageSkybox.java — /yourstageskybox (alias /yss), OP level 2
 ├── network/
 │   ├── NetworkHandler.java    — SimpleNetworkWrapper setup + sync helpers
 │   └── PacketSyncSkybox.java  — IMessage: dimension + full SkyboxState → client
