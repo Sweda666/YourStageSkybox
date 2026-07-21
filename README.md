@@ -135,30 +135,3 @@ SkyboxAPI.clearSkybox(level, player);
 String name = SkyboxAPI.getSkybox(level);
 float alpha = SkyboxAPI.getSkyboxAlpha(level, player);
 ```
-
-## 构建
-
-每个版本目录独立构建，进入对应目录后：
-
-```bash
-./gradlew build        # 编译打包
-./gradlew runClient    # 启动测试客户端
-```
-
-**JDK 要求：**
-- 1.12.2 / 1.16.5 → JDK 8
-- 1.20.1 → JDK 17
-- 1.21.1 → JDK 21
-
-## 项目结构
-
-```
-yourstageskybox/
-├── 1.12.2/              # 当前稳定版
-├── 1.16.5/              # 可编译
-├── 1.20.1/              # 可编译
-├── 1.21.1/              # 移植中（待网络）
-├── 1.12.2/resourcepack/ # 测试资源包
-├── AGENTS.md            # AI 开发指南
-└── README.md
-```
