@@ -1,0 +1,23 @@
+# YourStageSkybox 指令
+yourstageskybox.command.usage=/yourstageskybox <set <名称> [透明度] [过渡秒数] [玩家] [维度] | clear [玩家] [维度] | alpha <值> [玩家] [维度] | duration <秒> [玩家] [维度] | info [维度] | list | reload>
+yourstageskybox.command.set.usage=/yourstageskybox set <名称> [透明度] [过渡秒数] [玩家] [维度]
+yourstageskybox.command.alpha.usage=/yourstageskybox alpha <0.0~1.0> [玩家] [维度]
+yourstageskybox.command.duration.usage=/yourstageskybox duration <秒数> [玩家] [维度]
+yourstageskybox.command.set.success=§a已为 %2$s 在维度 §e%3$d§a 设置天空盒: §e%1$s
+yourstageskybox.command.clear.success=§a已为 %1$s 在维度 §e%2$d§a 恢复原版天空
+yourstageskybox.command.alpha.success=§a已为 %2$s 在维度 §e%3$d§a 设置透明度: §e%1$.2f
+yourstageskybox.command.duration.success=§a已为 %2$s 在维度 §e%3$d§a 设置过渡时长: §e%1$.1f秒
+yourstageskybox.command.reload.success=§a已重新加载天空盒纹理。
+yourstageskybox.command.list.empty=§e当前没有已注册的天空盒。
+yourstageskybox.command.list.hint=§7将纹理放入资源包的 §fassets/yourstageskybox/textures/skyboxes/<名称>/panorama_0~5.png §7后使用 §f/yourstageskybox set <名称> §7即可自动注册。
+yourstageskybox.command.list.header=§a已注册的天空盒 (%1$d):
+yourstageskybox.command.list.active= §6[激活]
+yourstageskybox.command.info.vanilla=§e维度 §f%1$d§e: §7(原版天空)
+yourstageskybox.command.info.format=§e维度 §f%1$d§e: §f%2$s
+yourstageskybox.command.info.transition=  §6[过渡中] §f%1$s
+yourstageskybox.command.info.server=§e维度 §f%1$d§e: §7服务端暂不显示详细信息，请客户端执行此指令
+yourstageskybox.command.target.none=无玩家
+yourstageskybox.command.target.more= 等%1$d名玩家
+yourstageskybox.command.error.player_offline=玩家 §f%1$s§r 不在线
+yourstageskybox.command.error.set_missing_name=§c用法: /yourstageskybox set <名称> [透明度] [过渡秒数] [玩家] [维度]
+yourstageskybox.state.vanilla=(原版天空)

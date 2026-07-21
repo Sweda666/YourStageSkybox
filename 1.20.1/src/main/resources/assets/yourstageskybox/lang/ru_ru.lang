@@ -1,0 +1,23 @@
+# YourStageSkybox Команды
+yourstageskybox.command.usage=/yourstageskybox <set <имя> [альфа] [длит] [игрок] [изм] | clear [игрок] [изм] | alpha <знач> [игрок] [изм] | duration <сек> [игрок] [изм] | info [изм] | list | reload>
+yourstageskybox.command.set.usage=/yourstageskybox set <имя> [альфа] [длит] [игрок] [изм]
+yourstageskybox.command.alpha.usage=/yourstageskybox alpha <0.0~1.0> [игрок] [изм]
+yourstageskybox.command.duration.usage=/yourstageskybox duration <секунды> [игрок] [изм]
+yourstageskybox.command.set.success=§aСкайбокс §e%1$s§a установлен для %2$s в измерении §e%3$d
+yourstageskybox.command.clear.success=§aСкайбокс сброшен для %1$s в измерении §e%2$d
+yourstageskybox.command.alpha.success=§aПрозрачность §e%1$.2f§a установлена для %2$s в измерении §e%3$d
+yourstageskybox.command.duration.success=§aДлительность перехода §e%1$.1f§a сек установлена для %2$s в измерении §e%3$d
+yourstageskybox.command.reload.success=§aТекстуры скайбокса перезагружены.
+yourstageskybox.command.list.empty=§eНет зарегистрированных скайбоксов.
+yourstageskybox.command.list.hint=§7Поместите текстуры в ресурс-пак: §fassets/yourstageskybox/textures/skyboxes/<имя>/panorama_0~5.png §7затем используйте §f/yourstageskybox set <имя> §7для авто-регистрации.
+yourstageskybox.command.list.header=§aЗарегистрированные скайбоксы (%1$d):
+yourstageskybox.command.list.active= §6[активен]
+yourstageskybox.command.info.vanilla=§eИзмерение §f%1$d§e: §7(ванильное небо)
+yourstageskybox.command.info.format=§eИзмерение §f%1$d§e: §f%2$s
+yourstageskybox.command.info.transition=  §6[Переход] §f%1$s
+yourstageskybox.command.info.server=§eИзмерение §f%1$d§e: §7Выполните команду на клиенте для деталей
+yourstageskybox.command.target.none=нет игроков
+yourstageskybox.command.target.more= и ещё %1$d
+yourstageskybox.command.error.player_offline=Игрок §f%1$s§r не в сети
+yourstageskybox.command.error.set_missing_name=§cИспользование: /yourstageskybox set <имя> [альфа] [длит] [игрок] [изм]
+yourstageskybox.state.vanilla=(ванильное небо)

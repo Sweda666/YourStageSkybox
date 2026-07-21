@@ -1,0 +1,16 @@
+[
+{
+  "modid": "yourstageskybox",
+  "name": "YourStageSkybox",
+  "description": "提供API和指令，供地图创作者快捷可控地切换天空盒材质",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [""],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
