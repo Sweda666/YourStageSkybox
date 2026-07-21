@@ -69,16 +69,6 @@ panorama_4 ← 玩家抬头看到的画面（+Y）
 panorama_5 ← 玩家低头看到的画面（-Y）
 ```
 
-### 批量转换工具
-
-`1.12.2/import_skybox.py` 可将常见天空盒格式（Humus、十字立方图、独立面）转换为本模组的 `panorama_0~5.png` 约定：
-
-```bash
-python import_skybox.py <输入路径> <名称>
-```
-
-输出到 `src/main/resources/assets/yourstageskybox/textures/skyboxes/<名称>/`。
-
 ### 测试资源包
 
 `1.12.2/resourcepack/` 目录包含两个示例天空盒（`demo`、`starry`），可直接复制到 `resourcepacks/` 测试。
